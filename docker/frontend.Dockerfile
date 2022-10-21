@@ -16,7 +16,7 @@ RUN yarn build
 # script for `vue-cli-service serve` from frontend/package.json
 CMD ["yarn", "dev"]
 
-FROM nginx:1.19 AS dist
+FROM nginx:1.23.1 AS dist
 
 COPY docker/nginx.conf.template /etc/nginx/templates/default.conf.template
 COPY --from=frontend /app/frontend/package.json /usr/share/nginx/html/
