@@ -29,7 +29,7 @@
     "moment": "^2.22.2",
     "v-autocomplete": "git+https://github.com/magenta-aps/v-autocomplete.git",
     "vee-validate": "^2.1.2",
-    "vue": "^2.5.17",
+    "vue": "^3.0.0",
     "vue-awesome": "^3.2.0",
     "vue-flag-icon": "^1.0.6",
     "vue-i18n": "^8.3.1",
